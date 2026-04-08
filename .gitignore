@@ -1,4 +1,15 @@
-.Portfolio/
+#env
+.Portfolio/ 
+
+# Python
 __pycache__/
 *.pyc
-*.ico
+
+# Datos (clave)
+data/*
+!data/
+!data/README.md
+
+# Archivos grandes
+*.zip
+
